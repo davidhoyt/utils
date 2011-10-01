@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async", "async\async.csproj", "{21460646-DA06-44B0-A672-0F1B1E4394E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async unit tests", "async\tests\async unit tests.csproj", "{B4400ABA-FB0E-4ACE-AEB3-8BEF3E613857}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "async", "async", "{1573935F-D2E8-4B60-8036-64F4E99F669A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21460646-DA06-44B0-A672-0F1B1E4394E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21460646-DA06-44B0-A672-0F1B1E4394E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21460646-DA06-44B0-A672-0F1B1E4394E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21460646-DA06-44B0-A672-0F1B1E4394E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4400ABA-FB0E-4ACE-AEB3-8BEF3E613857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4400ABA-FB0E-4ACE-AEB3-8BEF3E613857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4400ABA-FB0E-4ACE-AEB3-8BEF3E613857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4400ABA-FB0E-4ACE-AEB3-8BEF3E613857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4400ABA-FB0E-4ACE-AEB3-8BEF3E613857} = {1573935F-D2E8-4B60-8036-64F4E99F669A}
+		{21460646-DA06-44B0-A672-0F1B1E4394E3} = {1573935F-D2E8-4B60-8036-64F4E99F669A}
+	EndGlobalSection
+EndGlobal
